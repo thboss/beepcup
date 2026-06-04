@@ -16,7 +16,7 @@ const i18n = {
         "branch-nayfiyah": "فرع النايفية",
         "address-nayfiyah": "حي النايفية، الهفوف 36441، شارع منصور بن متعب بن عبدالعزيز",
         "hours-label": "ساعات العمل:",
-        "hours-val": "يومياً: ٦:٠٠ ص - ١:٠٠ ص",
+        "hours-val": "24/7",
         "btn-directions": "الوصول للموقع",
         "branch-ruqayqah": "فرع الرقيقة",
         "address-ruqayqah": "حي الرقيقة، الهفوف 36441، شارع الأمير محمد بن فهد",
@@ -52,7 +52,7 @@ const i18n = {
         "branch-nayfiyah": "Al Nayfiyah Branch",
         "address-nayfiyah": "Al Nayfiyah, Al Hofuf 36441, Mansour Bin Mutaib Bin Abdulaziz St.",
         "hours-label": "Opening Hours:",
-        "hours-val": "Daily: 6:00 AM - 1:00 AM",
+        "hours-val": "24/7",
         "btn-directions": "Get Directions",
         "branch-ruqayqah": "Al Ruqayqah Branch",
         "address-ruqayqah": "Al Ruqayqah, Al Hofuf 36441, Prince Mohammad Bin Fahd St.",
@@ -369,7 +369,7 @@ function updateBranchStatuses() {
 
     // Daily 6:00 AM - 1:00 AM AST
     // H >= 6 (6:00 AM to 11:59 PM) OR H < 1 (midnight to 1:00 AM)
-    const isOpen = (hour >= 6 || hour < 1);
+    const isOpen = true;
 
     // Active branches
     const activeBranches = ['nayfiyah', 'ruqayqah', 'hamra', 'hufairah'];
