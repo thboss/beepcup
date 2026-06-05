@@ -172,12 +172,6 @@ const menuItems = {
             price: 7
         },
         {
-            nameAr: "كيك بار",
-            nameEn: "Cake bar",
-            calories: 210,
-            price: 7
-        },
-        {
             nameAr: "شوكلت بار",
             nameEn: "Chocolate bar",
             calories: 272,
@@ -194,12 +188,6 @@ const menuItems = {
             nameEn: "Pecan Cheesecake",
             calories: 195,
             price: 13
-        },
-        {
-            nameAr: "تشيز كيك لوتس",
-            nameEn: "Cheesecake Lutos",
-            calories: 338,
-            price: 14
         },
         {
             nameAr: "بودينق",
@@ -224,6 +212,12 @@ const menuItems = {
             nameEn: "Coconut Cake",
             calories: 273,
             price: 13
+        },
+        {
+            nameAr: "ماتيلدا كراميل",
+            nameEn: "Matilda Caramel",
+            calories: 337,
+            price: 16
         }
     ]
 };
